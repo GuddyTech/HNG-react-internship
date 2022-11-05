@@ -4,11 +4,14 @@
   border: 0;
 }
 
+body {
+  background-color: green;
+}
 body header {
   border: 1px solid black;
   display: flex;
   align-items: center;
-  margin: 0 3%;
+  margin: 3% 3%;
 }
 body header .logo-div {
   border: 1px solid red;

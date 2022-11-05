@@ -8,12 +8,13 @@
 }
 
 body {
+    background-color: green;
 
     header {
         border: 1px solid black;
         display: flex;
         align-items: center;
-        margin: 0 3%;
+        margin: 3% 3%;
         // background-color: yellow;
         
         .logo-div {
