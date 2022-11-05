@@ -10,8 +10,11 @@
 body {
 
     header {
+        border: 10px solid black;
+        background-color: yellow;
         
         .logo-div {
+            border: 1px solid red;
 
             .nav-logo{
 
@@ -23,6 +26,7 @@ body {
             ul {
                 
                 .a-link-market {
+                    color: pink;
 
                 }
 
