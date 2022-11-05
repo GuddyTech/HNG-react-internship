@@ -26,4 +26,23 @@ body header .logo-div .nav-logo {
 }
 body header nav {
   border: 1px solid black;
+}
+body header nav ul {
+  display: flex;
+  justify-content: space-between;
+}
+body header nav ul li {
+  list-style-type: none;
+}
+body header nav ul li .a-link-market {
+  text-decoration: none;
+}
+body header nav ul li .a-link-disc {
+  text-decoration: none;
+}
+body header nav ul li .a-link-pricing {
+  text-decoration: none;
+}
+body header nav ul li .a-link-learn {
+  text-decoration: none;
 }/*# sourceMappingURL=styles.css.map */

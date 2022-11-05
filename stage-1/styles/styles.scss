@@ -36,22 +36,33 @@ body {
             border: 1px solid black;
 
             ul {
+                display: flex;
+                justify-content: space-between;
                 
-                .a-link-market {
-                    // color: pink;
+                li {
+                    list-style-type: none;
 
-                }
-
-                .a-link-disc {
-
-                }
-
-                .a-link-pricing {
-
-                }
-
-                .a-link-learn {
-
+                    .a-link-market {
+                        text-decoration: none;
+                        // color: pink;
+                        // color: pink;
+    
+                    }
+    
+                    .a-link-disc {
+                        text-decoration: none;
+    
+                    }
+    
+                    .a-link-pricing {
+                        text-decoration: none;
+                        
+                    }
+    
+                    .a-link-learn {
+                        text-decoration: none;   
+    
+                    }
                 }
             }
         }
