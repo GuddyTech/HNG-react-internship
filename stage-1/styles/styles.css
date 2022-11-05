@@ -12,6 +12,7 @@ body header {
   display: flex;
   align-items: center;
   margin: 3% 3%;
+  border-radius: 50px;
 }
 body header .logo-div {
   border: 1px solid red;
