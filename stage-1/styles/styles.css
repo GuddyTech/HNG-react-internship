@@ -6,6 +6,9 @@
 
 body header {
   border: 1px solid black;
+  display: flex;
+  align-items: center;
+  margin: 0 3%;
 }
 body header .logo-div {
   border: 1px solid red;
@@ -14,4 +17,7 @@ body header .logo-div .nav-logo {
   border: 1px solid blue;
   height: 5%;
   width: 10%;
+}
+body header nav {
+  border: 1px solid black;
 }/*# sourceMappingURL=styles.css.map */

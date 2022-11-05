@@ -11,6 +11,9 @@ body {
 
     header {
         border: 1px solid black;
+        display: flex;
+        align-items: center;
+        margin: 0 3%;
         // background-color: yellow;
         
         .logo-div {
@@ -26,6 +29,7 @@ body {
         }
 
         nav {
+            border: 1px solid black;
 
             ul {
                 
@@ -54,7 +58,7 @@ body {
             }
 
             .signup-btn {
-                
+
             }
         }
 
