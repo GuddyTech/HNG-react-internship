@@ -5,12 +5,13 @@
 }
 
 body header {
-  border: 10px solid black;
-  background-color: yellow;
+  border: 1px solid black;
 }
 body header .logo-div {
   border: 1px solid red;
 }
-body header nav ul .a-link-market {
-  color: pink;
+body header .logo-div .nav-logo {
+  border: 1px solid blue;
+  height: 20%;
+  width: 40%;
 }/*# sourceMappingURL=styles.css.map */
