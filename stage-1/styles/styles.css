@@ -27,6 +27,7 @@ body header .logo-div .nav-logo {
 }
 body header nav {
   border: 1px solid black;
+  width: 20%;
 }
 body header nav ul {
   display: flex;
@@ -49,8 +50,15 @@ body header nav ul li .a-link-learn {
 }
 body header .btn-div {
   border: 1px solid black;
+  width: 15%;
 }
 body header .btn-div .login-btn {
-  height: 10%;
+  height: 50%;
   width: 40%;
+  background-color: red;
+}
+body header .btn-div .signup-btn {
+  height: 50%;
+  width: 40%;
+  background-color: blue;
 }/*# sourceMappingURL=styles.css.map */

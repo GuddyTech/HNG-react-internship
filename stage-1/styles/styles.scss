@@ -35,6 +35,8 @@ body {
 
         nav {
             border: 1px solid black;
+            width: 20%;
+            
 
             ul {
                 display: flex;
@@ -70,14 +72,20 @@ body {
 
         .btn-div {
             border: 1px solid black;
+            width: 15%;
 
             .login-btn {
-                height: 10%;
+                height: 50%;
                 width: 40%;
+                background-color: red;
 
             }
 
             .signup-btn {
+                height: 50%;
+                width: 40%;
+                background-color: blue;
+
 
             }
         }
