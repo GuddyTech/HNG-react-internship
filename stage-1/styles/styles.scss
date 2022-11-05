@@ -19,6 +19,7 @@ body {
         border-radius: 50px;
         background-color: white;
         justify-content: space-around;
+        height: 15%;
         
         .logo-div {
             border: 1px solid red;
@@ -68,7 +69,11 @@ body {
         }
 
         .btn-div {
+            border: 1px solid black;
+
             .login-btn {
+                height: 10%;
+                width: 40%;
 
             }
 

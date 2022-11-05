@@ -15,6 +15,7 @@ body header {
   border-radius: 50px;
   background-color: white;
   justify-content: space-around;
+  height: 15%;
 }
 body header .logo-div {
   border: 1px solid red;
@@ -45,4 +46,11 @@ body header nav ul li .a-link-pricing {
 }
 body header nav ul li .a-link-learn {
   text-decoration: none;
+}
+body header .btn-div {
+  border: 1px solid black;
+}
+body header .btn-div .login-btn {
+  height: 10%;
+  width: 40%;
 }/*# sourceMappingURL=styles.css.map */
