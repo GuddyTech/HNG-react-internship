@@ -13,14 +13,16 @@ body header {
   align-items: center;
   margin: 3% 3%;
   border-radius: 50px;
+  background-color: white;
+  justify-content: space-around;
 }
 body header .logo-div {
   border: 1px solid red;
 }
 body header .logo-div .nav-logo {
   border: 1px solid blue;
-  height: 5%;
-  width: 10%;
+  height: 20%;
+  width: 40%;
 }
 body header nav {
   border: 1px solid black;
