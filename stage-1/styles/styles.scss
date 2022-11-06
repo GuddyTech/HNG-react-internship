@@ -1,4 +1,10 @@
-
+$bodyBgColor: green;
+$headerBgColor: white;
+$loginBtnBgColor1: rgb(228, 228, 228);
+$loginBtnBgColor1Hover: rgb(228, 228, 228);
+$signupBtnBgColor2: rgb(25, 25, 47);
+$signupBtnBgColor2Hover: rgb(25, 25, 47);
+$pWhite: white;
 
 
 *{
@@ -8,7 +14,7 @@
 }
 
 body {
-    background-color: green;
+    background-color: $bodyBgColor;
     
 
     header {
@@ -17,7 +23,7 @@ body {
         align-items: center;
         margin: 3% 3%;
         border-radius: 50px;
-        background-color: white;
+        background-color: $headerBgColor;
         justify-content: space-around;
         height: 15%;
         
@@ -84,24 +90,29 @@ body {
             .login-btn {
                 height: 100%;
                 width: 35%;
-                background-color: rgb(228, 228, 228);
+                background-color: $loginBtnBgColor1;
                 border-radius: 10px;
                 font-size: 115%;
                 font-weight: 100;
+
+                &:hover {
+                    background-color: $loginBtnBgColor1Hover;
+                }
 
             }
 
             .signup-btn {
                 height: 100%;
                 width: 60%;
-                background-color: rgb(25, 25, 47);
+                background-color: $signupBtnBgColor2;
                 border-radius: 50px;
-                color: white;
+                color: $pWhite;
                 font-size: 115%;
                 font-weight: 100;
 
-
-
+                &:hover {
+                    background-color: $signupBtnBgColor2Hover;
+                }
 
             }
         }
