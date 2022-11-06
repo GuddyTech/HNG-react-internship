@@ -8,7 +8,6 @@ body {
   background-color: green;
 }
 body header {
-  border: 1px solid black;
   display: flex;
   align-items: center;
   margin: 3% 3%;
@@ -18,16 +17,13 @@ body header {
   height: 15%;
 }
 body header .logo-div {
-  border: 1px solid red;
   width: 10%;
 }
 body header .logo-div .nav-logo {
-  border: 1px solid blue;
   height: 50%;
   width: 100%;
 }
 body header nav {
-  border: 1px solid purple;
   height: 40%;
   width: 30%;
   margin-right: 30%;
@@ -37,45 +33,46 @@ body header nav ul {
   display: flex;
   justify-content: space-around;
   height: 100%;
-  background-color: yellow;
 }
 body header nav ul li {
   list-style-type: none;
   height: 70%;
-  border: 1px solid green;
-  background-color: rgb(48, 48, 55);
   margin: 0% 0;
   padding: 1.3% 4.5%;
+  display: flex;
+  border-radius: 8px;
+}
+body header nav ul li:hover {
+  background-color: rgb(228, 228, 228);
 }
 body header nav ul li .a-link-market {
   text-decoration: none;
   color: grey;
-  border: 1px solid rgb(214, 205, 205);
   height: 100%;
   align-items: center;
-  margin: 1.4% 0;
+  margin: 3% 0;
 }
 body header nav ul li .a-link-disc {
   text-decoration: none;
   color: grey;
-  border: 1px solid black;
-  margin: 1.4% 0;
+  height: 100%;
+  margin: 3% 0;
+  align-items: center;
 }
 body header nav ul li .a-link-pricing {
   text-decoration: none;
   color: grey;
-  border: 1px solid black;
   border-radius: 10px;
-  height: 200%;
+  margin: 3% 0;
+  align-items: center;
 }
 body header nav ul li .a-link-learn {
   text-decoration: none;
   color: grey;
-  border: 1px solid black;
-  margin: 104px 0;
+  margin: 3% 0;
+  align-items: center;
 }
 body header .btn-div {
-  border: 1px solid black;
   height: 70%;
   width: 20%;
   display: flex;
@@ -103,5 +100,5 @@ body header .btn-div .signup-btn {
   font-weight: 100;
 }
 body header .btn-div .signup-btn:hover {
-  background-color: rgb(33, 33, 53);
+  background-color: rgb(54, 54, 68);
 }/*# sourceMappingURL=styles.css.map */
