@@ -67,7 +67,7 @@ body header .btn-div .login-btn {
   font-weight: 100;
 }
 body header .btn-div .login-btn:hover {
-  background-color: rgb(228, 228, 228);
+  background-color: rgb(209, 207, 207);
 }
 body header .btn-div .signup-btn {
   height: 100%;
@@ -79,5 +79,5 @@ body header .btn-div .signup-btn {
   font-weight: 100;
 }
 body header .btn-div .signup-btn:hover {
-  background-color: rgb(25, 25, 47);
+  background-color: rgb(33, 33, 53);
 }/*# sourceMappingURL=styles.css.map */
