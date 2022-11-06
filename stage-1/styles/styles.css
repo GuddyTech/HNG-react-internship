@@ -51,6 +51,8 @@ body header nav ul li .a-link-market {
   height: 100%;
   align-items: center;
   margin: 3% 0;
+  font-weight: 500;
+  font-size: 110%;
 }
 body header nav ul li .a-link-disc {
   text-decoration: none;
@@ -58,6 +60,8 @@ body header nav ul li .a-link-disc {
   height: 100%;
   margin: 3% 0;
   align-items: center;
+  font-weight: 500;
+  font-size: 110%;
 }
 body header nav ul li .a-link-pricing {
   text-decoration: none;
@@ -65,12 +69,16 @@ body header nav ul li .a-link-pricing {
   border-radius: 10px;
   margin: 3% 0;
   align-items: center;
+  font-weight: 500;
+  font-size: 110%;
 }
 body header nav ul li .a-link-learn {
   text-decoration: none;
   color: grey;
   margin: 3% 0;
   align-items: center;
+  font-weight: 500;
+  font-size: 110%;
 }
 body header .btn-div {
   height: 70%;
@@ -86,6 +94,7 @@ body header .btn-div .login-btn {
   border-radius: 10px;
   font-size: 115%;
   font-weight: 100;
+  cursor: pointer;
 }
 body header .btn-div .login-btn:hover {
   background-color: rgb(209, 207, 207);
@@ -98,6 +107,7 @@ body header .btn-div .signup-btn {
   color: white;
   font-size: 115%;
   font-weight: 100;
+  cursor: pointer;
 }
 body header .btn-div .signup-btn:hover {
   background-color: rgb(54, 54, 68);
