@@ -1,4 +1,4 @@
-$bodyBgColor: green;
+$bodyBgColor: rgb(7, 67, 7);
 $headerBgColor: white;
 $loginBtnBgColor1: rgb(228, 228, 228);
 $loginBtnBgColor1Hover: rgb(209, 207, 207);
@@ -6,6 +6,7 @@ $signupBtnBgColor2: rgb(25, 25, 47);
 $signupBtnBgColor2Hover: rgb(54, 54, 68);
 $pWhite: white;
 $pNavColor: grey;
+$pEveryColor: rgb(234, 234, 69);
 
 
 *{
@@ -181,6 +182,7 @@ body {
     }
 
     main {
+        margin: 3% 3%;
 
         section-1 {
 
@@ -189,6 +191,11 @@ body {
                 .div-every {
 
                     .p-every {
+                        font-size: 600%;
+                        font-weight: 820;
+                        font-family: Arial, Helvetica, sans-serif;
+                        line-height: 0.95em;
+                        color: $pEveryColor;
 
                     }
 
@@ -197,7 +204,7 @@ body {
                     }
 
                     .btn-claim {
-                        
+
                     }
 
                 }
