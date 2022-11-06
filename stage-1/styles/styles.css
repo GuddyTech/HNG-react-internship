@@ -40,15 +40,19 @@ body header nav ul li {
 }
 body header nav ul li .a-link-market {
   text-decoration: none;
+  color: grey;
 }
 body header nav ul li .a-link-disc {
   text-decoration: none;
+  color: grey;
 }
 body header nav ul li .a-link-pricing {
   text-decoration: none;
+  color: grey;
 }
 body header nav ul li .a-link-learn {
   text-decoration: none;
+  color: grey;
 }
 body header .btn-div {
   border: 1px solid black;

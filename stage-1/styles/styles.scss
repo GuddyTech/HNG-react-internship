@@ -57,23 +57,26 @@ body {
 
                     .a-link-market {
                         text-decoration: none;
-                        // color: pink;
+                        color: $pNavColor;
                         // color: pink;
     
                     }
     
                     .a-link-disc {
                         text-decoration: none;
+                        color: $pNavColor;
     
                     }
     
                     .a-link-pricing {
                         text-decoration: none;
+                        color: $pNavColor;
                         
                     }
     
                     .a-link-learn {
-                        text-decoration: none;   
+                        text-decoration: none; 
+                        color: $pNavColor;  
     
                     }
                 }
